@@ -1,0 +1,135 @@
+@import "./_variables.scss";
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  background: $background-color;
+  color: #2c2c2c;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0;
+  padding: 30px 0px;
+  min-height: calc(100vh - 60px);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.45em;
+  color: #000000;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  &:focus {
+    outline: none;
+  }
+}
+
+section,
+div,
+p,
+input,
+form {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+
+  .container_small {
+    width: 70%;
+  }
+}
+
+.app {
+  min-height: calc(100vh - 60px);
+  width: calc(100vw - 100px);
+  margin: 0 auto;
+  max-width: 1400px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* Media Queries */
+
+/* 992 - 1200 px */
+@media screen and (max-width: 1200px) {
+  .app {
+    width: 930px;
+  }
+}
+
+/* 768 - 992 px */
+@media screen and (max-width: 992px) {
+  .app {
+    width: 700px;
+  }
+}
+
+/* 576 - 768 px */
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5 {
+    font-size: 16px;
+  }
+
+  .app {
+    width: 500px;
+  }
+}
+
+/* 320 - 576 px */
+@media screen and (max-width: 576px) {
+  .app {
+    width: 300px;
+  }
+}

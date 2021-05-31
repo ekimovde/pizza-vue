@@ -1,0 +1,266 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "text": "Пицца"
+    },
+    {
+      "id": 1,
+      "text": "Бургеры"
+    },
+    {
+      "id": 2,
+      "text": "Салаты"
+    },
+    {
+      "id": 3,
+      "text": "Лапша"
+    },
+    {
+      "id": 4,
+      "text": "Картофель и курица"
+    },
+    {
+      "id": 5,
+      "text": "Соусы"
+    },
+    {
+      "id": 6,
+      "text": "Закуски"
+    },
+    {
+      "id": 7,
+      "text": "Напитки"
+    },
+    {
+      "id": 8,
+      "text": "Десерты"
+    }
+  ],
+  "0": [
+    {
+      "idCard": 0,
+      "url": "/img/1.png",
+      "title": "Чизбургер-пицца",
+      "description": "",
+      "idActiveDough": 0,
+      "idActiveDiameter": 0,
+      "price": 3950,
+      "count": 0,
+      "allPrice": 0,
+      "maxCount": 20,
+      "type": "0",
+      "dough": [
+        {
+          "text": "тонкое",
+          "disabled": false
+        },
+        {
+          "text": "традиционное",
+          "disabled": false
+        }
+      ],
+      "diameter": [
+        {
+          "text": "26 см.",
+          "disabled": false
+        },
+        {
+          "text": "30 см.",
+          "disabled": true
+        },
+        {
+          "text": "40 см.",
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "idCard": 1,
+      "url": "/img/1.png",
+      "title": "Сырная",
+      "description": "",
+      "idActiveDough": 0,
+      "idActiveDiameter": 0,
+      "price": 2500,
+      "allPrice": 0,
+      "count": 0,
+      "maxCount": 20,
+      "type": "0",
+      "dough": [
+        {
+          "text": "тонкое",
+          "disabled": false
+        },
+        {
+          "text": "традиционное",
+          "disabled": true
+        }
+      ],
+      "diameter": [
+        {
+          "text": "26 см.",
+          "disabled": false
+        },
+        {
+          "text": "30 см.",
+          "disabled": true
+        },
+        {
+          "text": "40 см.",
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "idCard": 2,
+      "url": "/img/1.png",
+      "title": "Сырная",
+      "description": "",
+      "idActiveDough": 0,
+      "idActiveDiameter": 0,
+      "price": 2500,
+      "allPrice": 0,
+      "count": 0,
+      "maxCount": 20,
+      "type": "0",
+      "dough": [
+        {
+          "text": "тонкое",
+          "disabled": false
+        },
+        {
+          "text": "традиционное",
+          "disabled": true
+        }
+      ],
+      "diameter": [
+        {
+          "text": "26 см.",
+          "disabled": false
+        },
+        {
+          "text": "30 см.",
+          "disabled": true
+        },
+        {
+          "text": "40 см.",
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "idCard": 3,
+      "url": "/img/1.png",
+      "title": "Сырная",
+      "description": "",
+      "idActiveDough": 0,
+      "idActiveDiameter": 0,
+      "price": 2500,
+      "allPrice": 0,
+      "count": 0,
+      "maxCount": 20,
+      "type": "0",
+      "dough": [
+        {
+          "text": "тонкое",
+          "disabled": false
+        },
+        {
+          "text": "традиционное",
+          "disabled": true
+        }
+      ],
+      "diameter": [
+        {
+          "text": "26 см.",
+          "disabled": false
+        },
+        {
+          "text": "30 см.",
+          "disabled": true
+        },
+        {
+          "text": "40 см.",
+          "disabled": true
+        }
+      ]
+    }
+  ],
+  "1": [
+    {
+      "idCard": 0,
+      "url": "/img/1.png",
+      "title": "Чизбургер-пицца",
+      "description": "",
+      "idActiveDough": 0,
+      "idActiveDiameter": 0,
+      "price": 3950,
+      "count": 0,
+      "allPrice": 0,
+      "maxCount": 20,
+      "type": "0",
+      "dough": [
+        {
+          "text": "тонкое",
+          "disabled": false
+        },
+        {
+          "text": "традиционное",
+          "disabled": false
+        }
+      ],
+      "diameter": [
+        {
+          "text": "26 см.",
+          "disabled": false
+        },
+        {
+          "text": "30 см.",
+          "disabled": true
+        },
+        {
+          "text": "40 см.",
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "idCard": 1,
+      "url": "/img/1.png",
+      "title": "Сырная",
+      "description": "",
+      "idActiveDough": 0,
+      "idActiveDiameter": 0,
+      "price": 2500,
+      "allPrice": 0,
+      "count": 0,
+      "maxCount": 20,
+      "type": "1",
+      "dough": [
+        {
+          "text": "тонкое",
+          "disabled": false
+        },
+        {
+          "text": "традиционное",
+          "disabled": true
+        }
+      ],
+      "diameter": [
+        {
+          "text": "26 см.",
+          "disabled": false
+        },
+        {
+          "text": "30 см.",
+          "disabled": true
+        },
+        {
+          "text": "40 см.",
+          "disabled": true
+        }
+      ]
+    }
+  ]
+}
